@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 module.exports = {
   "env": {
     "browser": true,
@@ -43,9 +42,16 @@ module.exports = {
     "react/jsx-curly-spacing": [2, { "when": "always", "children": true }],
     "react/jsx-first-prop-new-line": ["error", "multiline"],
     "react/jsx-max-props-per-line": [1, { "maximum": 1, "when": "multiline" }],
-    "jsx-closing-bracket-location": [1, { "selfClosing": "after-props" }],
     "react/jsx-tag-spacing": ["error", {
       "beforeClosing": "allow",
     }],
+    "max-len": ["error", { "code": 100 }],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+      },
+    ],
+    "space-infix-ops": "error",
   },
 };

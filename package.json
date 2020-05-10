@@ -11,6 +11,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.54",
     "@docusaurus/preset-classic": "^2.0.0-alpha.54",
+    "antd": "^4.2.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "moment": "^2.25.3",

@@ -6,37 +6,24 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import propTypes from "prop-types";
+import "antd/dist/antd.css";
+import "moment/locale/zh-cn";
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: "文档",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    description: "各种实用文档",
   },
   {
-    title: <>Focus on What Matters</>,
+    title: "博客",
     imageUrl: "img/undraw_docusaurus_tree.svg",
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    description: "带有个人看法的知识与见解分享",
   },
   {
-    title: <>Powered by React</>,
+    title: "百宝箱",
     imageUrl: "img/undraw_docusaurus_react.svg",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    description: "各种实用小工具",
   },
 ];
 
@@ -54,7 +41,7 @@ function Feature({ imageUrl, title, description }) {
     </div>
   );
 }
-Feature.propTypes={
+Feature.propTypes = {
   imageUrl: propTypes.string,
   title: propTypes.string,
   description: propTypes.string,
@@ -100,7 +87,6 @@ function Home() {
             </div>
           </section>
         ) }
-        <div />
       </main>
     </Layout>
   );
