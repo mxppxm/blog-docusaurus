@@ -67,8 +67,17 @@ module.exports = {
             },
           ],
         },
+        {
+          title: "备案信息",
+          items: [
+            {
+              label: "ICP证：宁ICP备20000656号",
+              href: "http://www.beian.miit.gov.cn",
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © ${currentYear} mxppxm, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${currentYear} mxppxm, Inc. Built with Docusaurus`,
     },
   },
   presets: [
